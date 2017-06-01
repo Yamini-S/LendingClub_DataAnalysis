@@ -10,7 +10,7 @@ docker pull melavoyrajap/ads_assignment2
 docker run -it -e "accesskey=<enter your accesskey>" -e "secretkey=<enter your secretkey>" -e "bucket=<enter your bucket>" -e "loanDataFile=<enter filename>" 
 -e "rejectLoanDataFile=<enter filename>" melavoyrajap/ads_assignment2:latest
  ```
-
+To run the above command, use credentials for Amazon AWS access key,secret key and bucket name
 
 ## Scripts/Notebooks:
 
